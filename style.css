@@ -1,0 +1,95 @@
+ 
+.About{
+    margin-top: 100px;
+}
+.aboutimg{
+    margin-top: 50px;
+}
+.category{
+    margin-top: 80px;
+}
+.dbe{
+    margin-top: 50px;
+}
+.Fat{
+   width: 100%;
+   margin-top: 9px;
+}
+.accordion-button{
+    background-color: #f5f3ed !important;
+}
+.accordion-item{
+    background-color: #f5f3ed !important;
+}
+.footer{ 
+background-color: #f5f3ed ;
+margin-top: 50px;
+}
+ .cat:hover{
+    box-shadow: 0px 0px 10px black;
+    border-radius: 20px;
+ }
+ .cat a{
+    text-decoration: none;
+    color: black;
+ }
+ .card:hover{ 
+         box-shadow: 0px 0px 10px black;
+ }
+ .card{
+    margin-top: 15px;
+ }
+ .card img{
+    width: 300px;
+ }
+ .container-fluid{
+    background-color:  #f5f3ed  !important;
+ }
+
+ .navbar-collapse{
+    background-color:  #f5f3ed  !important;
+
+ }
+ .navbar{
+    background-color:  #f5f3ed  !important;
+    
+ }
+.nav-link:hover{
+    background-color: black;
+    color:  #f5f3ed  !important;
+}
+
+ /* General styling for category items */
+.category .cat {
+    padding: 10px;
+}
+
+.category .cat img {
+    width: 100%;
+    max-width: 230px;
+    height: auto;
+}
+
+.category h4 {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+    .category h4 {
+        font-size: 1em;
+    }
+    .category .cat {
+        padding: 5px;
+    }
+}
+
+@media (max-width: 576px) {
+    .category h4 {
+        font-size: 0.9em;
+    }
+    .category .cat img {
+        max-width: 150px;
+    }
+}
